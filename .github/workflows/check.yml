@@ -11,7 +11,6 @@ on:
   schedule:
     - cron: '0 19 * * *'   # 每天 UTC 19:00（北京时间 03:00）运行一次
   workflow_dispatch:
-  workflow_dispatch:
     inputs:
       max_nodes:
         description: '最多检测多少个节点（0 = 全部）'
